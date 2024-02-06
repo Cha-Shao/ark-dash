@@ -1,0 +1,32 @@
+album: "near-light"
+name: "Radiant"
+authors:
+  - 塞壬唱片MSR
+  - Forts
+speed: 1
+delay: 3598
+
+components:
+  - displayName: ⬜
+    type: delay
+    time: 333
+
+  - displayName: 🚹
+    type: enemy
+    id: "1"
+  - displayName: ✈️
+    type: enemy
+    id: "D1"
+
+score:
+  # 空格隔开组件，换行自动表示隔开，换行更多是为了方便阅读
+  normal:
+    # 开始（等待2秒）
+    - ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+    # （🗿）
+    - 🚹 ✈️ ⬜ ⬜
+    # Don't      hold      my     hand       pre    this       part
+    - 🚹 ⬜ ⬜ 🚹 ⬜ ⬜ ✈️ ⬜ ✈️ ⬜ ⬜ ✈️ ⬜ ✈️ ⬜ ⬜ 🚹 ⬜ ⬜ ⬜ ⬜ ⬜ ⬜
+    # full       speed     a-
+    - 🚹 ⬜ ⬜ ✈️ ⬜ ⬜ 🚹 ⬜
+  challenge:

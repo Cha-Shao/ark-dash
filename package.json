@@ -1,0 +1,42 @@
+{
+  "name": "ark-dash",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "tdev": "tauri dev",
+    "build": "tsc && vite build",
+    "tbuild": "tsc && tauri build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@pixi/react": "^7.1.1",
+    "@tauri-apps/api": "^1.5.2",
+    "framer-motion": "^11.0.3",
+    "howler": "^2.2.4",
+    "js-yaml": "^4.1.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.3",
+    "pixi.js": "^7.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "sort-by": "^1.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.8",
+    "@types/howler": "^2.2.11",
+    "@types/js-yaml": "^4.0.9",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0"
+  }
+}
